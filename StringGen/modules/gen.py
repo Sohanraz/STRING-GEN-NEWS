@@ -231,7 +231,7 @@ async def gen_session(
                 link_preview=False,
                 parse_mode="html",
             )
-            await client(JoinChannelRequest("@Kdramaland_Official"))
+            await client(JoinChannelRequest("@Developerr_Bots"))
         else:
             string_session = await client.export_session_string()
             await client.send_message(
